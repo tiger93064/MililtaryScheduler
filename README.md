@@ -13,6 +13,8 @@ Build
 3. Open MililtaryScheduler.sln.
 4. Press build button.
 
+note: nuget extension(HtmlAgilityPack) will set up itself while compiling.
+
 Developement environment
 ---------------------------
 OS: Windows 7/10
