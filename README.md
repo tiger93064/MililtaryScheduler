@@ -6,5 +6,6 @@ Support crossing years arrangement, web crawler from yuntech calendar webpage, e
 
 Developement environment
 ---------------------------
-OS: Windows 7/ 10
+OS: Windows 7/10
+
 IDE: Visual Studio Community 2017
