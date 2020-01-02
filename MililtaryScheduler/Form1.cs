@@ -19,7 +19,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 //The porgram can divide into serval parts: generate selected year calander, web crawler from yuntech calender webpage then assgin to local calender, process exception event to support requirment
 //  specific three-day continous holidays(takeofftype=2), dispatch crew by textbox name list, print calendar to screen. Export excel file.
 //
-//All codes below credited to Guanting, Liu 12,10, 2019.
+//All codes below credited to Guanting, Liu 12, 10, 2019.
 
 namespace MililtaryScheduler
 {
