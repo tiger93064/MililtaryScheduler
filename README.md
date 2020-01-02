@@ -9,3 +9,5 @@ Developement environment
 OS: Windows 7/10
 
 IDE: Visual Studio Community 2017
+
+Framework: .NET Framework 4.5
