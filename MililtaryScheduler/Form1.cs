@@ -93,6 +93,7 @@ namespace MililtaryScheduler
                 List<day> excepTakeoffDays = new List<day>();                                 //補行上班.
 
                 WebClient wC = new WebClient();
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 MemoryStream memoryStream  = new MemoryStream(wC.DownloadData("https://events.yuntech.edu.tw/index.php?&y="+i.ToString()+"&view=YunTech&"));        //load page by i(year number).
                 //Console.WriteLine("Hi");
                 HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
